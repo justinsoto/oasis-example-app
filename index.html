@@ -7,11 +7,20 @@
 </head>
 <style>
   .greeting {
-    font-size: 5rem;
+    font-size: 3rem;
     color: forestgreen;
   }
 </style>
+<script>
+  const myName = "Justin";
+  // alert("Welcome to my website!")
+
+  document.querySelector("html").addEventListener("click", function() {
+    alert("Click detected.");
+  });
+</script>
 <body>
-  <p class="greeting">Hello, World!</p>
+  <p id="first_ptag" class="greeting">Hello, World!</p>
+  <p id="name_ptag" class="greeting">My name is Justin</p>
 </body>
 </html>
